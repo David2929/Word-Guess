@@ -1,0 +1,22 @@
+
+body	{
+	padding: 25px;
+}
+
+h1	{
+	text-align: center;
+	background-color: grey;
+
+}
+
+img.small	{
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin: 0px auto;
+}
+
+.button1	{
+	background-color: #008CBA;
+	font-size: 14px;
+}

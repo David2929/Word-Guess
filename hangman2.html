@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Guess Game</title>
+
+	<link rel="stylesheet" type="text/css" href="hangman2.css">
+
+</head>
+
+<body>
+
+<img src="guessing.jpg" class="small">
+<h1>Guess the Word Game?</h1>
+<br>
+<br>
+<h3>Type a letter (then press the guess button)</h3>
+
+<br>
+<br>
+	<input id="guess" type="text">
+<br>
+<br>
+	<input type="button" class="button1" value="Guess" onClick="guessOne()"/>
+	<input type="button" class="button1" value="Quit" onClick="quit()"/>
+	<p id="message"> &nbsp; </p>
+	<p>
+	<span id="answer">waiting for your guess.....</span>
+	</p>
+
+<br>
+<br>
+
+	<h3>Following are the potential answers chosen at random.....</h3>
+	<ul>
+		<li>javascript</li>
+		<li>computer</li>
+		<li>coding</li>
+		<li>oggiisgreat</li>
+		<li>laptop</li>
+	</ul>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+	<script type="text/javascript" src="hangman2.js"></script>
+
+</body>
+
+
+</html>
